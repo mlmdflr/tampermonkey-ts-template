@@ -6,7 +6,7 @@
   "author": "mlmdflr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlmdflr/electron-modules"
+    "url": "https://github.com/mlmdflr/tampermonkey-ts-template"
   },
   "keywords": [
     "tampermonkey",
