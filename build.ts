@@ -50,7 +50,7 @@ if (script.grants) {
     else script.grants.forEach((item) => typeof item === 'string' && (result += '// @grant'.padEnd(padLen, ' ') + item + '\n'))
 }
 
-script.noframes && (result += '@noframes\n')
+script.noframes && (result += '// @noframes\n')
 script.nocompat && (result += '// @nocompat'.padEnd(padLen, ' ') + script.nocompat + '\n')
 
 result += '// ==/UserScript==\n'
